@@ -20,7 +20,9 @@ Now to generate component, open the terminal in the needed react app directory a
 $ cmp COMPONENT_NAME ADDITIONAL_PATH
 ```
 
-Here, if ADDITIONAL_PATH is not provided then component will generate at path `src/component` otherwise at path `src/component/ADDITIONAL_PATH`. For each component, these three things will be created:
+Here, if ADDITIONAL_PATH is not provided then component will generate at path `src/component` otherwise at path `src/component/ADDITIONAL_PATH`.
+
+For each component, these three things will be created:
 
 1. Folder named COMPONENT_NAME.
 2. File named COMPONENT_NAME.js in that folder.
