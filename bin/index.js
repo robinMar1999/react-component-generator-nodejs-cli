@@ -43,7 +43,7 @@ fs.writeFileSync(path.join(currPath, `${NAME}.js`), jstext);
 
 // Creating CSS File
 const csstext = `.${NAME}{
-
+  
 }`;
 
 fs.writeFileSync(path.join(currPath, `${NAME}.module.css`), csstext);
